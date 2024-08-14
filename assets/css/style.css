@@ -1,0 +1,73 @@
+
+
+div#sidebar {
+    width: 250px;
+    height: 95.3%;
+    position: absolute;
+}
+#sidebar .sidebar-item {
+    position: relative;
+    height: 50px;
+    padding: 10px;
+    display: inline-flex;
+    font-size: 15px;
+    align-items: center;
+    border-bottom: 1px solid #007bff6b;
+    width: 100%;
+    color: black;
+    font-weight: 700
+}
+#sidebar .sidebar-item:hover, #sidebar .sidebar-item.active {
+    text-decoration: unset;
+    background: #91c0f34a;
+    color: #353535 !important;
+}
+
+#sidebar .sidebar-item .sidebar-icon {
+	width:11%;
+	padding: auto;
+}
+div#main{
+	margin-top: 10px;
+	margin-left:250px;
+	padding: 20px
+}
+
+.pull-right{
+	float: right;
+}
+button.btn-rounded{
+	border-radius: 50% !important;
+}
+#login-body{
+      width: 100%;
+  }
+#login-body>.card{
+      top:10vh;
+
+}
+#login-body>.card>.card-header-edge {
+    position: relative;
+    top: -1em;
+    width: 100%;
+    min-height: 3em;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    background: rgb(185, 192, 200);
+    background: linear-gradient( rgb(24, 111, 138) 0%, rgb(28, 58, 94) 100%);
+}
+
+  .equation-output {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    min-height: 100px;
+    font-size: 20px; 
+  }
+  .symbol-button {
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
